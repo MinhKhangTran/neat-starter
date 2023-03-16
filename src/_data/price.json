@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "name": "Kimchi",
+      "preis": "5"
+    },
+    {
+      "name": "Sesam öl",
+      "preis": "6"
+    },
+    {
+      "name": "Pho",
+      "preis": "13"
+    },
+    {
+      "name": "pizza",
+      "preis": "12"
+    },
+    {
+      "name": "döner",
+      "preis": "6"
+    }
+  ]
+}
