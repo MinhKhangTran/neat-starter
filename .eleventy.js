@@ -39,7 +39,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/favicon.ico");
 
    // Copy json to route of /_site
-   eleventyConfig.addPassthroughCopy("./src/api/price.json");
+   eleventyConfig.addPassthroughCopy("./src/_data/price.json");
 
   // Minify HTML
   eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
