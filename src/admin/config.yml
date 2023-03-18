@@ -12,17 +12,35 @@ public_folder: "/static/img"
 local_backend: true
 # publish_mode: editorial_workflow
 collections:
-  - label: "API"
-    name: "api"
+  - label: "Koreanische Speisen"
+    name: "koreanische speisen"
     editor:
       preview: false
     files:
       - label: "Preis"
         name: "price"
-        file: "src/_data/price.json"
+        file: "src/_data/korean.json"
         fields:
-          - label: Items
-            name: items
+          - label: 식사류
+            name: 식사류
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Preis, name: preis, widget: string }
+          - label: 면류 
+            name: 면류
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Preis, name: preis, widget: string }
+          - label: 탕류 
+            name: 탕류
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Preis, name: preis, widget: string }
+          - label: 안주류 
+            name: 안주류
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
