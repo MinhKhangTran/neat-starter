@@ -140,5 +140,60 @@ collections:
               - { label: Einzel, name: einzel, widget: string, default: "Einzelpreis pro 160g" }
               - { label: Preis Einzel, name: preis_einzel, widget: string }
               - { label: Beschreibung, name: desc, widget: string }
+  - label: "Getränkekarte"
+    name: "getraenkekarte"
+    editor:
+      preview: false
+    files:
+      - label: "Getränke"
+        name: "getraenke"
+        file: "src/_data/drinks.json"
+        fields:
+          - label: beer
+            name: beer
+            widget: list
+            fields:
+              - { label: Name, name: title, widget: string }
+              - { label: Liter groß, name: liter1, widget: string, required: false }
+              - { label: Preis groß, name: price1, widget: string, required: false }
+              - { label: Liter klein, name: liter2, widget: string, required: false }
+              - { label: Preis klein, name: price2, widget: string, required: false }
+          - label: Sprits
+            name: sprits
+            widget: list
+            fields:
+              - { label: Name, name: title, widget: string }
+              - { label: Liter groß, name: liter1, widget: string, required: false }
+              - { label: Preis groß, name: price1, widget: string, required: false }
+              - { label: Liter klein, name: liter2, widget: string, required: false }
+              - { label: Preis klein, name: price2, widget: string, required: false }
+          - label: White Wine
+            name: whiteWine
+            widget: list
+            fields:
+              - { label: Name, name: title, widget: string }
+              - { label: Liter groß, name: liter1, widget: string, required: false }
+              - { label: Preis groß, name: price1, widget: string, required: false }
+              - { label: Liter klein, name: liter2, widget: string, required: false }
+              - { label: Preis klein, name: price2, widget: string, required: false }
+          - label: Red Wine
+            name: redWine
+            widget: list
+            fields:
+              - { label: Name, name: title, widget: string }
+              - { label: Liter groß, name: liter1, widget: string, required: false }
+              - { label: Preis groß, name: price1, widget: string, required: false }
+              - { label: Liter klein, name: liter2, widget: string, required: false }
+              - { label: Preis klein, name: price2, widget: string, required: false }
+          - label: Non-Alc
+            name: nonAlc
+            widget: list
+            fields:
+              - { label: Name, name: title, widget: string }
+              - { label: Liter groß, name: liter1, widget: string, required: false }
+              - { label: Preis groß, name: price1, widget: string, required: false }
+              - { label: Liter klein, name: liter2, widget: string, required: false }
+              - { label: Preis klein, name: price2, widget: string, required: false }
+          
           
   
