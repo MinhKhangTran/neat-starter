@@ -1,12 +1,44 @@
 {
   "korSpez": [
     {
+      "id": "S1",
       "scharf": true,
-      "id": "asdf",
-      "title": "asdf",
-      "desc": "asdf",
-      "allergene": "asdf",
-      "price": "asdf"
+      "title": "M1 Kimchi-Zigae",
+      "desc": "Scharfes Kimchi-Eintopf mit Tofu und Schweinefleisch",
+      "allergene": "",
+      "price": "15.50 €"
+    },
+    {
+      "id": "S2",
+      "scharf": false,
+      "title": "M2 Doenjang-Zigae",
+      "desc": "Bohnenpastesuppe mit Gemüse und Tofu",
+      "allergene": "4, 6, 8",
+      "price": "15.50 €"
+    },
+    {
+      "id": "S3",
+      "scharf": true,
+      "title": "M3 Sundubu-Zigae",
+      "desc": "Scharfe Tofu-Suppe mit Meeresfrüchten und verschiedenen Gemüse",
+      "allergene": "3, 6, 8",
+      "price": "15.50 €"
+    },
+    {
+      "id": "S4",
+      "scharf": false,
+      "title": "M4 Sundae-Gok",
+      "desc": "Wurst koreanischer Art mit Reis und Glasnudeln gefüllt",
+      "allergene": "",
+      "price": "16.50 €"
+    },
+    {
+      "id": "S5",
+      "scharf": true,
+      "title": "M5 Yukgaejang",
+      "desc": "Rindfleischsuppe mit Gemüse",
+      "allergene": "",
+      "price": "16.50 €"
     }
   ],
   "nudelgericht": [
