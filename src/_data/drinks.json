@@ -1,0 +1,31 @@
+{
+  "beer": [
+    {
+      "title": "Bitburger (draft)",
+      "liter1": "0.3l",
+      "price1": "3.20 €",
+      "liter2": "0.5l",
+      "price2": "4.20 €"
+    },
+    {
+      "title": "Bitburger alcohol-free",
+      "liter1": "0.3l",
+      "price1": "3.20 €"
+    },
+    {
+      "title": "Benediktiner Weißer/Dunkel/Kristall",
+      "liter1": "0.5l",
+      "price1": "4.20 €"
+    },
+    {
+      "title": "Radler",
+      "liter1": "0.5l",
+      "price1": "4.20 €"
+    },
+    {
+      "title": "Makkoli (Ricebeer)",
+      "liter1": "0.75l",
+      "price1": "12.00 €"
+    }
+  ]
+}
