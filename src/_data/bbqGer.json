@@ -1,0 +1,15 @@
+{
+  "menu": [
+    {
+      "kid": "Kind (5-9)",
+      "preis_adult": "asdf",
+      "preis_einzel": "asdf",
+      "desc": "asdf",
+      "preis_kid": "asdf",
+      "einzel": "Einzelpreis pro 160g",
+      "title": "asdf",
+      "adult": "Erwachsene",
+      "id": "asdf"
+    }
+  ]
+}
