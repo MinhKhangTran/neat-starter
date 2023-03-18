@@ -1,37 +1,37 @@
 {
   "menu": [
     {
-      "id": "menu1",
+      "kid": "Kind (5-9)",
+      "preis_adult": "25.00 €",
+      "preis_einzel": "19.50 €",
+      "desc": "Schweinebauch",
+      "preis_kid": "15.00 €",
+      "einzel": "Einzelpreis pro 160g",
       "title": "Menü 1",
       "adult": "Erwachsene",
-      "preis_adult": "25.00 €",
-      "kid": "Kind (6-10)",
-      "preis_kid": "15.00 €",
-      "einzel": "Einzelpreis pro 200g",
-      "preis_einzel": "19.50 €",
-      "desc": "Schweinebauch"
+      "id": "menu1"
     },
     {
-      "id": "menu2",
+      "kid": "Kind (5-9)",
+      "preis_adult": "27.00 €",
+      "preis_einzel": "-",
+      "desc": "Schweinebauch + Rinderrippenfleisch",
+      "preis_kid": "17.00 €",
+      "einzel": "Einzelpreis pro 160g",
       "title": "Menü 2",
       "adult": "Erwachsene",
-      "preis_adult": "27.00 €",
-      "kid": "Kind (6-10)",
-      "preis_kid": "17.00 €",
-      "einzel": "Einzelpreis pro 200g",
-      "preis_einzel": "-",
-      "desc": "Schweinebauch + Rinderrippenfleisch"
+      "id": "menu2"
     },
     {
-      "id": "menu3",
+      "kid": "Kind (5-9)",
+      "preis_adult": "30.00 €",
+      "preis_einzel": "24.50 €",
+      "desc": "Schweine/- Bauch, Kotlett, Nacken + Rinderrippen",
+      "preis_kid": "20.00 €",
+      "einzel": "Einzelpreis pro 160g",
       "title": "Menü 3",
       "adult": "Erwachsene",
-      "preis_adult": "30.00 €",
-      "kid": "Kind (6-10)",
-      "preis_kid": "20.00 €",
-      "einzel": "Einzelpreis pro 200g",
-      "preis_einzel": "24.50 €",
-      "desc": "Schweine/- Bauch, Kotlett, Nacken + Rinderrippen"
+      "id": "menu3"
     }
   ]
 }
