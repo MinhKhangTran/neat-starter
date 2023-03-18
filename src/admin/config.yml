@@ -22,25 +22,25 @@ collections:
         file: "src/_data/korean.json"
         fields:
           - label: 식사류
-            name: 식사류
+            name: sigsalyu
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
               - { label: Preis, name: preis, widget: string }
           - label: 면류 
-            name: 면류
+            name: myeonlyu
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
               - { label: Preis, name: preis, widget: string }
           - label: 탕류 
-            name: 탕류
+            name: tanglyu
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
               - { label: Preis, name: preis, widget: string }
           - label: 안주류 
-            name: 안주류
+            name: anjulyu
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
