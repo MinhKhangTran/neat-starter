@@ -21,26 +21,26 @@ collections:
         name: "speisekarte"
         file: "src/_data/korean.json"
         fields:
-          - label: sigsalyu
-            name: sigsalyu
+          - label: 식사류
+            name: 식사류
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
               - { label: Preis, name: preis, widget: string }
-          - label: myeonlyu 
-            name: myeonlyu
+          - label: 면류 
+            name: 면류
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
               - { label: Preis, name: preis, widget: string }
-          - label: tanglyu 
-            name: tanglyu
+          - label: 탕류 
+            name: 탕류
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
               - { label: Preis, name: preis, widget: string }
-          - label: anjulyu 
-            name: anjulyu
+          - label: 안주류 
+            name: 안주류
             widget: list
             fields:
               - { label: Name, name: name, widget: string }
