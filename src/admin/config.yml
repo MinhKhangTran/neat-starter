@@ -103,7 +103,7 @@ collections:
     files:
       - label: "BBQ"
         name: "bbq"
-        file: "src/_data/bbq_kr.json"
+        file: "src/_data/bbqKr.json"
         fields:
           - label: Menu
             name: menu
@@ -125,7 +125,7 @@ collections:
     files:
       - label: "BBQ"
         name: "bbq"
-        file: "src/_data/bbq_ger.json"
+        file: "src/_data/bbqGer.json"
         fields:
           - label: Menu
             name: menu
