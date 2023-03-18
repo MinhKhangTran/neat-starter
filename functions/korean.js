@@ -1,7 +1,7 @@
-const items = require('../src/_data/price.json')
+const items = require('../src/_data/korean.json')
 
 exports.handler = async (event, context, cb) => {
-    console.log(items)
+    
     return {
       headers: {
         'Access-Control-Allow-Origin': '*',
