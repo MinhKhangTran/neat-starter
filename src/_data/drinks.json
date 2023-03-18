@@ -5,7 +5,7 @@
       "liter1": "0.3l",
       "price1": "3.20 €",
       "liter2": "0.5l",
-      "price2": "4.20 €"
+      "price2": "4.80 €"
     },
     {
       "title": "Bitburger alcohol-free",
@@ -15,17 +15,86 @@
     {
       "title": "Benediktiner Weißer/Dunkel/Kristall",
       "liter1": "0.5l",
-      "price1": "4.20 €"
+      "price1": "4.80 €"
     },
     {
       "title": "Radler",
       "liter1": "0.5l",
-      "price1": "4.20 €"
+      "price1": "4.80 €"
     },
     {
       "title": "Makkoli (Ricebeer)",
       "liter1": "0.75l",
       "price1": "12.00 €"
+    }
+  ],
+  "sprits": [
+    {
+      "title": "Soju (Chamisul)",
+      "liter1": "0.35l",
+      "price1": "14.00 €"
+    },
+    {
+      "title": "Hardenberg Korn",
+      "liter1": "0.35l",
+      "price1": "17.50 €"
+    },
+    {
+      "title": "Doornkaat",
+      "liter1": "0.7l",
+      "price1": "35.00 €"
+    }
+  ],
+  "whiteWine": [
+    {
+      "title": "Hallgartener Schonhell Riesling",
+      "liter1": "0.1l",
+      "price1": "5.00 €",
+      "liter2": "1.0l",
+      "price2": "38.00 €"
+    }
+  ],
+  "redWine": [
+    {
+      "title": "La casoune Merlot",
+      "liter1": "0.1l",
+      "price1": "5.00 €",
+      "liter2": "1.0l",
+      "price2": "38.00 €"
+    },
+    {
+      "title": "Primitivo puglia",
+      "liter1": "0.75l",
+      "price1": "28.00 €"
+    }
+  ],
+  "nonAlc": [
+    {
+      "title": "Cola/Cola light/Sprite/Fanta/Spezi",
+      "liter1": "0.2l",
+      "price1": "3.00 €",
+      "liter2": "0.4l",
+      "price2": "4.20 €"
+    },
+    {
+      "liter1": "0.2l",
+      "price1": "3.40 €",
+      "liter2": "",
+      "title": "Schweppes Bitter Lemon/Ginger Ale"
+    },
+    {
+      "liter1": "0.2l",
+      "price1": "3.00 €",
+      "liter2": "0.4l",
+      "title": "Orange-/Applejuice",
+      "price2": "4.90 €"
+    },
+    {
+      "liter1": "0.2l",
+      "liter2": "1.0l",
+      "title": "Water (Geroldsteiner)",
+      "price1": "2.40 €",
+      "price2": "7.00 €"
     }
   ]
 }
