@@ -60,7 +60,7 @@ collections:
             widget: list
             fields:
               - { label: ID, name: id, widget: string }
-              - { label: Scharf, name: scharf, widget: boolean }
+              - { label: Scharf, name: scharf, widget: boolean, default: true }
               - { label: Name, name: title, widget: string }
               - { label: Beschreibung, name: desc, widget: string }
               - { label: Allergene, name: allergene, widget: string, required: false }
@@ -70,7 +70,8 @@ collections:
             widget: list
             fields:
               - { label: ID, name: id, widget: string }
-              - { label: Scharf, name: scharf, widget: boolean }
+              - { label: Scharf, name: scharf, widget: boolean, default: true }
+              - { label: Doppelscharf, name: doppeltScharf, widget: boolean, default: false }
               - { label: Name, name: title, widget: string }
               - { label: Beschreibung, name: desc, widget: string }
               - { label: Allergene, name: allergene, widget: string, required: false }
@@ -80,7 +81,7 @@ collections:
             widget: list
             fields:
               - { label: ID, name: id, widget: string }
-              - { label: Scharf, name: scharf, widget: boolean }
+              - { label: Scharf, name: scharf, widget: boolean, default: true }
               - { label: Name, name: title, widget: string }
               - { label: Beschreibung, name: desc, widget: string }
               - { label: Allergene, name: allergene, widget: string, required: false }
@@ -90,7 +91,7 @@ collections:
             widget: list
             fields:
               - { label: ID, name: id, widget: string }
-              - { label: Scharf, name: scharf, widget: boolean }
+              - { label: Scharf, name: scharf, widget: boolean, default: true }
               - { label: Name, name: title, widget: string }
               - { label: Beschreibung, name: desc, widget: string }
               - { label: Allergene, name: allergene, widget: string, required: false }
