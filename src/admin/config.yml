@@ -96,6 +96,49 @@ collections:
               - { label: Beschreibung, name: desc, widget: string }
               - { label: Allergene, name: allergene, widget: string, required: false }
               - { label: Preis, name: price, widget: string }
-
-        
-        
+  - label: "BBQ koreanisch"
+    name: "bbq koreanisch"
+    editor:
+      preview: false
+    files:
+      - label: "BBQ"
+        name: "bbq"
+        file: "src/_data/bbq_kr.json"
+        fields:
+          - label: Menu
+            name: menu
+            widget: list
+            fields:
+              - { label: ID, name: id, widget: string }
+              - { label: Name, name: title, widget: string }
+              - { label: Erwachsener, name: adult, widget: string, default: "성인"}
+              - { label: Preis Erwachsener, name: preis_adult, widget: string }
+              - { label: Kind, name: kid, widget: string, default: "어린이 (5-9)"}
+              - { label: Preis Kind, name: preis_kid, widget: string }
+              - { label: Einzel, name: einzel, widget: string, default: "단품 (160g)" }
+              - { label: Preis Einzel, name: preis_einzel, widget: string }
+              - { label: Beschreibung, name: desc, widget: string }
+  - label: "BBQ deutssch"
+    name: "bbq deutssch"
+    editor:
+      preview: false
+    files:
+      - label: "BBQ"
+        name: "bbq"
+        file: "src/_data/bbq_ger.json"
+        fields:
+          - label: Menu
+            name: menu
+            widget: list
+            fields:
+              - { label: ID, name: id, widget: string }
+              - { label: Name, name: title, widget: string }
+              - { label: Erwachsener, name: adult, widget: string, default: "Erwachsene"}
+              - { label: Preis Erwachsener, name: preis_adult, widget: string }
+              - { label: Kind, name: kid, widget: string, default: "Kind (5-9)"}
+              - { label: Preis Kind, name: preis_kid, widget: string }
+              - { label: Einzel, name: einzel, widget: string, default: "Einzelpreis pro 160g" }
+              - { label: Preis Einzel, name: preis_einzel, widget: string }
+              - { label: Beschreibung, name: desc, widget: string }
+          
+  
