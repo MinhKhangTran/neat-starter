@@ -1,0 +1,43 @@
+{
+  "korSpez": [
+    {
+      "scharf": true,
+      "id": "asdf",
+      "title": "asdf",
+      "desc": "asdf",
+      "allergene": "asdf",
+      "price": "asdf"
+    }
+  ],
+  "nudelgericht": [
+    {
+      "scharf": true,
+      "doppeltScharf": true,
+      "id": "asdf",
+      "title": "asdf",
+      "desc": "asdf",
+      "allergene": "asdf",
+      "price": "asdf"
+    }
+  ],
+  "reisgericht": [
+    {
+      "scharf": true,
+      "id": "asdf",
+      "title": "asdf",
+      "desc": "asdf",
+      "allergene": "asdf",
+      "price": "asdf"
+    }
+  ],
+  "suppengericht": [
+    {
+      "scharf": true,
+      "id": "asdf",
+      "title": "asdf",
+      "desc": "asdf",
+      "allergene": "asdf",
+      "price": "asdf"
+    }
+  ]
+}
