@@ -1,6 +1,189 @@
 {
   "korSpez": [
     {
+      "id": "K1",
+      "scharf": false,
+      "title": "M17 Heamul Paejeon",
+      "desc": "Koreanischer Pfannkuchen mit Meeresfrüchte und Gemüse",
+      "allergene": "1, 3, 12, 14",
+      "price": "21.00 €"
+    },
+    {
+      "id": "K2",
+      "scharf": false,
+      "title": "M18 Kimchi Pajeon",
+      "desc": "Koreanischer Pfannkuchen mit Kimchi",
+      "allergene": "1, 3, 12, 14",
+      "price": "21.00 €"
+    },
+    {
+      "id": "K3",
+      "scharf": false,
+      "title": "M19 Gunmandu",
+      "desc": "Gebratene Maultasche, hausgemacht",
+      "allergene": "1, 3",
+      "price": "18.00 €"
+    },
+    {
+      "id": "K4",
+      "scharf": true,
+      "title": "M20 Kim Sam Bok",
+      "desc": "Gebratenes Schweinefleisch mit Kimchi und Tofu",
+      "allergene": "11",
+      "price": "34.50 €"
+    },
+    {
+      "id": "K5",
+      "scharf": true,
+      "title": "M21 Ojingeo Bokum",
+      "desc": "Gebratener Tintenfisch mit Gemüse.",
+      "allergene": "11, 14",
+      "price": "35.00 €"
+    },
+    {
+      "id": "K6",
+      "scharf": false,
+      "title": "M22 Tangsuyuk",
+      "desc": "Fritiertes Schweinefleisch mit Gemüse und süßsauer-Soße",
+      "allergene": "3",
+      "price": "21.00 €"
+    },
+    {
+      "id": "K7",
+      "scharf": false,
+      "title": "M23 Guchu Tangsuyuk",
+      "desc": "Fritiertes Schweinefleisch mit scharfe Paprika und süßsauer-Soße",
+      "allergene": "3",
+      "price": "21.00 €"
+    },
+    {
+      "id": "K8",
+      "scharf": false,
+      "title": "M24 Dwaeji Kampunki",
+      "desc": "Fritiertes Schweinefleisch mit Spezial-Soße",
+      "allergene": "3, 12",
+      "price": "21.00 €"
+    },
+    {
+      "id": "K9",
+      "scharf": false,
+      "title": "M25 So Kampunki",
+      "desc": "Fritiertes Rindfleisch mit Spezial-Soße",
+      "allergene": "3, 12",
+      "price": "22.00 €"
+    },
+    {
+      "id": "K11",
+      "scharf": false,
+      "title": "M27 Dakgasum Kampunki",
+      "desc": "Fritierte Hühnerbrust mit Spezial-Soße",
+      "allergene": "3, 12",
+      "price": "21.00 €"
+    }
+  ],
+  "nudelgericht": [
+    {
+      "id": "N1",
+      "scharf": false,
+      "title": "M12 Haemul-Kalguksu",
+      "desc": "Nudelsuppe in kräftiger Brühe mit Meeresfrüchte und Gemüse",
+      "allergene": "2, 3, 12, 14",
+      "price": "16.50 €"
+    },
+    {
+      "id": "N2",
+      "scharf": false,
+      "title": "M13 Janchi-Guksu",
+      "desc": "Dünne Weizenmehlnudeln mit Gemüse in Sardellenbrühesuppe",
+      "allergene": "1, 3, 11",
+      "price": "15.50 €"
+    },
+    {
+      "id": "N3",
+      "scharf": false,
+      "title": "M14 Ssalguksu",
+      "desc": "Vietnamesische Reisnudelnsuppe mit Rindfleisch",
+      "allergene": "",
+      "price": "14.50 €"
+    },
+    {
+      "id": "N4",
+      "scharf": false,
+      "title": "M15 Zapchae",
+      "desc": "Gebratene Glasnudeln mit Schweinefleisch und Gemüse",
+      "allergene": "3, 11",
+      "price": "14.50 €"
+    },
+    {
+      "id": "N5",
+      "scharf": false,
+      "title": "M16 Zajangmyeon",
+      "desc": "Soße aus chinesischen Bohnenpaste mit Gemüse",
+      "allergene": "1, 6",
+      "price": "14.50 €"
+    },
+    {
+      "id": "N6",
+      "scharf": false,
+      "doppeltScharf": true,
+      "title": "M17 Zampong",
+      "desc": "Meeresfrüchtesuppe mit verschiedene Gemüse",
+      "allergene": "1, 2, 3, 12, 14",
+      "price": "15.50 €"
+    }
+  ],
+  "reisgericht": [
+    {
+      "id": "R1",
+      "scharf": true,
+      "title": "M6 Jeyuk Bokum Bab",
+      "desc": "Gebratenes Schweinefleisch mit Gemüse",
+      "allergene": "11",
+      "price": "16.50 €"
+    },
+    {
+      "id": "R2",
+      "scharf": true,
+      "title": "M7 Kimchi Bokum Bab",
+      "desc": "Gebratener Reis mit Kimchi, Schweinefleisch und Spiegelei",
+      "allergene": "3, 11",
+      "price": "15.50 €"
+    },
+    {
+      "id": "R3",
+      "scharf": false,
+      "title": "M8 Se-U Bokum Bab",
+      "desc": "Gebratener Reis mit Krabben, Gemüse und Spiegelei",
+      "allergene": "2, 3, 11, 12",
+      "price": "16.50 €"
+    },
+    {
+      "id": "R4",
+      "scharf": true,
+      "title": "M9 Dolsot Bibimbab",
+      "desc": "Gemischter Reis mit Gemüse, Rindfleisch und Spiegelei",
+      "allergene": "3, 6, 11",
+      "price": "16.50 €"
+    },
+    {
+      "id": "R5",
+      "scharf": false,
+      "title": "M10 Bulgogi",
+      "desc": "Mariniertes Rindfleisch mit Gemüse, Glasnudeln",
+      "allergene": "11",
+      "price": "16.50 €"
+    },
+    {
+      "id": "R6",
+      "scharf": false,
+      "title": "M11 Godeungeo Gui",
+      "desc": "Gegrillte eingelegte Makrele",
+      "allergene": "4",
+      "price": "16.50 €"
+    }
+  ],
+  "suppengericht": [
+    {
       "id": "S1",
       "scharf": true,
       "title": "M1 Kimchi-Zigae",
@@ -39,37 +222,6 @@
       "desc": "Rindfleischsuppe mit Gemüse",
       "allergene": "",
       "price": "16.50 €"
-    }
-  ],
-  "nudelgericht": [
-    {
-      "scharf": true,
-      "doppeltScharf": true,
-      "id": "asdf",
-      "title": "asdf",
-      "desc": "asdf",
-      "allergene": "asdf",
-      "price": "asdf"
-    }
-  ],
-  "reisgericht": [
-    {
-      "scharf": true,
-      "id": "asdf",
-      "title": "asdf",
-      "desc": "asdf",
-      "allergene": "asdf",
-      "price": "asdf"
-    }
-  ],
-  "suppengericht": [
-    {
-      "scharf": true,
-      "id": "asdf",
-      "title": "asdf",
-      "desc": "asdf",
-      "allergene": "asdf",
-      "price": "asdf"
     }
   ]
 }
