@@ -98,7 +98,7 @@
       "desc": "Dünne Weizenmehlnudeln mit Gemüse in Sardellenbrühesuppe",
       "allergene": "1, 3, 11",
       "price": "15.50 €",
-      "doppeltScharf": true
+      "doppeltScharf": false
     },
     {
       "id": "N3",
@@ -107,7 +107,7 @@
       "desc": "Vietnamesische Reisnudelnsuppe mit Rindfleisch",
       "allergene": "",
       "price": "14.50 €",
-      "doppeltScharf": true
+      "doppeltScharf": false
     },
     {
       "id": "N4",
@@ -116,7 +116,7 @@
       "desc": "Gebratene Glasnudeln auf Reis mit Rindfleisch und Gemüse",
       "allergene": "3, 11",
       "price": "14.50 €",
-      "doppeltScharf": true
+      "doppeltScharf": false
     },
     {
       "id": "N5",
@@ -125,7 +125,7 @@
       "desc": "Nudeln mit schwarzer Soße aus Bohnenpaste mit Gemüse und Schweinefleisch",
       "allergene": "1, 6",
       "price": "14.50 €",
-      "doppeltScharf": true
+      "doppeltScharf": false
     },
     {
       "id": "N6",

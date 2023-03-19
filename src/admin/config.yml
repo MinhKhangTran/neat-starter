@@ -70,8 +70,8 @@ collections:
             widget: list
             fields:
               - { label: ID, name: id, widget: string }
-              - { label: Scharf, name: scharf, widget: boolean, default: true }
-              - { label: Doppelscharf, name: doppeltScharf, widget: boolean, default: false }
+              - { label: Scharf, name: scharf, widget: boolean, default: true, required: false }
+              - { label: Doppelscharf, name: doppeltScharf, widget: boolean, default: false,required: false }
               - { label: Name, name: title, widget: string }
               - { label: Beschreibung, name: desc, widget: string }
               - { label: Allergene, name: allergene, widget: string, required: false }
